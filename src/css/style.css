@@ -1,0 +1,87 @@
+/* Título e conselho */
+
+body {
+    overflow-x: hidden; 
+    overflow: hidden;
+}
+
+.container {
+    padding: 5px;
+    background-color:hsl(217, 19%, 24%) ;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 50px;
+    flex-wrap: wrap;
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nameconselho {
+    color: hsl(150, 100%, 66%);
+    background-color:hsl(217, 19%, 24%) ;
+    font-size: 25px;
+}
+
+.conselho {
+    background-color:hsl(217, 19%, 24%) ;
+    text-align: center;
+    font-size: 35px;
+}
+
+/* Linhas e pause */
+
+.LinhaPause {
+    background-color: hsl(217, 19%, 24%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pause {
+    background-color: hsl(217, 19%, 24%);
+    padding: 0px 15px 0px 15px;
+}
+
+#linha1 {
+    background-color: hsl(217, 19%, 24%);
+    width: 200px;
+    height: 20px;
+}
+
+/* Botão */
+
+.ImageDado {
+    background-color:hsl(150, 100%, 66%) ;
+    border-radius: 50%;
+    padding: 20px;
+    transform: translateY(50%);
+}
+
+#dados {
+    background-color:hsl(150, 100%, 66%) ;
+}
+
+.ImageDado button {
+    background-color:hsl(150, 100%, 66%) ;
+    color:hsl(150, 100%, 66%) ;
+    cursor: pointer;
+    border: none;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 960px) {
+    #linha1 {
+        background-color: hsl(217, 19%, 24%);
+        width: 100px;
+        height: 20px;
+        margin: 0px 5px 0px 5px;
+    }
+
+    .container {
+        width: 350px;
+    }
+}
